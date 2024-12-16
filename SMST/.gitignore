@@ -9,7 +9,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.env
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -394,6 +393,14 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Ignore logs and temporary files
+*.log
+tmp/
+
+# Ignore environment variables
+*.env
 
 # JetBrains Rider
 *.sln.iml
