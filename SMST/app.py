@@ -3,7 +3,7 @@ from analysis import get_youtube_comments, predict_sentiment, visualize_sentimen
 import os
 
 app = Flask(__name__)
-#app.secret_key = "secret_key"
+app.secret_key = "secret_key"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
